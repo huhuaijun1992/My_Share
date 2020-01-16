@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My_Share</string>
+    <string name="share_txt_content">分享文本!</string>
+</resources>
