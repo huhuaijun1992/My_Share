@@ -1,6 +1,7 @@
 package com.hhj.my_share;
 
 import android.content.Context;
+import android.content.Intent;
 
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
@@ -23,5 +24,6 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
         assertEquals("com.hhj.my_share", appContext.getPackageName());
+        appContext.startActivity(new Intent(appContext,MainActivity.class));
     }
 }
